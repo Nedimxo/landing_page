@@ -16,11 +16,17 @@ ul{
 .header_logo {
     margin-left: 150px;
     text-align: center;
-    padding: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: extra-bold;
 }
 
 .signup {
     display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 100px;
 }
 .signup-left {
     display: flex;
@@ -29,20 +35,22 @@ ul{
     margin-left: 150px;
 }
 img {
-    width: 300px;
+    width: 400px;
     margin-right: 150px;
 }
 
-h2 {
-    font: 48px;
+.header-one {
+    font: 60px;
+    font-weight: bold;
 }
 
 .btn-1 {
     background-color: #3882F6;
     color: white;
-    border: 1px solid white;
+    border: 1px solid transparent;
     border-radius: 15px;
-    padding: 
+    padding: 5px;
+    
 }
 
 .header {
@@ -60,4 +68,23 @@ h2 {
 .footer {
     background-color: #1F2937;
     color: white;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    width: 100px;
+    padding: 20px;
+    border-color: 1px solid black;
+
+    background-color: red;
+}
+
+.containers {
+    display: flex;
 }
